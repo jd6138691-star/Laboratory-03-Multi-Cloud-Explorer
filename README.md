@@ -1,6 +1,5 @@
 # Laboratory-03-Multi-Cloud-Explorer
 
-## Laboratory-03-Multi-Cloud-Explorer
 # Checkpoint 7 – Continue Your Linux Investigation
 
 ## System Information & Commands

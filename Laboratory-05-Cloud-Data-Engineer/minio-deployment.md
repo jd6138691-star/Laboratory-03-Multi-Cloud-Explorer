@@ -1,10 +1,10 @@
-# MinIO Deployment
+# MinIO Deployment Documentation
 
-## Technical Deployment Steps
+## Technical Steps
 
-MinIO was deployed using Docker.
+### 1. Deploy MinIO Using Docker
 
-# Docker Command
+I deployed the MinIO storage server using the following Docker command:
 
 
 docker run -d --name minio \
@@ -13,38 +13,3 @@ docker run -d --name minio \
   -e "MINIO_ROOT_USER=admin" \
   -e "MINIO_ROOT_PASSWORD=password123" \
   quay.io/minio/minio server /data --console-address ":9001"
-
-
-# Laboratory 05 - Cloud Data Engineer
-
-# Mission Overview
-
-The mission of this laboratory is to deploy and configure MinIO as an object storage server using Docker. The deployment demonstrates how cloud storage concepts can be implemented locally using containerization.
-
-# Objectives
-
-- Deploy a MinIO server using Docker.
-- Configure MinIO using environment variables.
-- Access the MinIO web console.
-- Create and manage an object storage bucket.
-- Document the technical deployment process.
-- Understand the role of Docker in deploying cloud-based services.
-
-# Tools Used
-
-- Docker
-- MinIO
-- GitHub
-- Web Browser
-- Markdown
-
-# Skills Learned
-
-- Deploying applications using Docker containers.
-- Configuring applications using environment variables.
-- Working with MinIO object storage.
-- Creating and managing storage buckets.
-- Accessing a web-based cloud storage console.
-- Writing technical documentation using Markdown.
-- Managing laboratory files using GitHub.
-

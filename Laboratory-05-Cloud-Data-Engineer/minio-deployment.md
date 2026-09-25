@@ -4,9 +4,9 @@
 
 MinIO was deployed using Docker.
 
-### Docker Command
+# Docker Command
 
-```bash
+
 docker run -d --name minio \
   -p 9000:9000 \
   -p 9001:9001 \
@@ -17,11 +17,11 @@ docker run -d --name minio \
 
 # Laboratory 05 - Cloud Data Engineer
 
-## Mission Overview
+# Mission Overview
 
 The mission of this laboratory is to deploy and configure MinIO as an object storage server using Docker. The deployment demonstrates how cloud storage concepts can be implemented locally using containerization.
 
-## Objectives
+# Objectives
 
 - Deploy a MinIO server using Docker.
 - Configure MinIO using environment variables.
@@ -30,7 +30,7 @@ The mission of this laboratory is to deploy and configure MinIO as an object sto
 - Document the technical deployment process.
 - Understand the role of Docker in deploying cloud-based services.
 
-## Tools Used
+# Tools Used
 
 - Docker
 - MinIO
@@ -38,7 +38,7 @@ The mission of this laboratory is to deploy and configure MinIO as an object sto
 - Web Browser
 - Markdown
 
-## Skills Learned
+# Skills Learned
 
 - Deploying applications using Docker containers.
 - Configuring applications using environment variables.
